@@ -41,12 +41,7 @@ data/
 # ======================
 # MODEL OUTPUTS
 # ======================
-models/**/weights/
-models/**/checkpoints/
-models/**/runs/
-runs/
-logs/
-outputs/
+
 
 # ======================
 # CACHE FILES
