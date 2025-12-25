@@ -1,50 +1,9 @@
-# ======================
-# PYTHON / GENERAL
-# ======================
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.pkl
-*.pt
-*.pth
-.DS_Store
-
-# ======================
-# VENV
-# ======================
-.venv/
-venv/
-env/
-
-# ======================
-# IDE FILES (PyCharm, VSCode)
-# ======================
-.idea/
-.vscode/
-
-# ======================
-# DATASETS (DO NOT COMMIT)
-# ======================
-dataset/
+runs/
 datasets/
-data/
-**/images/
-**/labels/
-**/videos/
-**/mrf_training/
-**/feature_training/
-
-# אם תרצה להשאיר את fire_images.yaml, נוסיף כלל מיוחד:
-!dataset/fire_images.yaml
-
-# ======================
-# MODEL OUTPUTS
-# ======================
-
-
-# ======================
-# CACHE FILES
-# ======================
+data/images/
+data/labels/
+*.pt
 *.cache
-*.log
+__pycache__/
+.venv/
+.env
