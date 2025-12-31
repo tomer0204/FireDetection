@@ -1,6 +1,4 @@
 runs/
-runs/train
-runs/val
 datasets/
 data/images/
 data/labels/
